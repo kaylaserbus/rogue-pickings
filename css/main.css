@@ -1,0 +1,155 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header span {
+    color: #77A466;
+}
+
+nav {
+    float: right; 
+    padding: 15px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77A466;
+    padding-left: 10px;
+    clear: both;
+}
+
+img {
+    border-top: 6px solid #77A466;
+    border-bottom: 6px solid #77A466;
+}
+
+/***** MAIN *****/
+
+#about h1 {
+    color: #77A466;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#menu {
+    padding: 0px 400px;
+}
+
+#menu .third-width {
+    border: 1px solid #DEDBDC;
+    height: 210px;
+    width: 300px;
+    padding: 25px 35px 0 30px;
+}
+
+#menu h1 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#menu h2 {
+    color: #77A466;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+#menu h3, #menu h4{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#menu h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/***** FOOTER *****/
+
+footer span {
+    color: #77A466;
+    font-family: 'Cedarville Cursive', cursive;
+    text-transform: none;
+    font-size: 18px;
+}
+
+footer div {
+    overflow: hidden;
+    text-align: center;
+}
+
+/***** LOCATIONS PAGE *****/
+/***** MAIN *****/
+
+main .full-width h1 {
+    color: #77A466;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+main div {
+    padding: 0px 400px;
+}
+
+main .third-width {
+    height: 210px;
+    width: 300px;
+    padding: 25px 35px 0 30px;
+
+}
+
+main .center-locations {
+    margin-left: 10px;
+}
+
+main .third-width h1 {
+    color: #77A466;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+main .third-width h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: lighter;
+}  
